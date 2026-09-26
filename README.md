@@ -1,160 +1,132 @@
 # Sensing resilience of complex systems via predictive-reconstructive learning
 
-PRISM learns representations of resilience changes through joint prediction of
-node trajectories and network reconstruction. It supports tracking resilience
-changes without resilience labels and classification using limited labeled data.
-The experiments cover SIS and neuronal dynamics on ER and SF networks.
+Official implementation of **Sensing resilience of complex systems via predictive-reconstructive learning** by Jun Fu, Peng Zhang, Ruisheng Gu and Lucas Böttcher.
 
-Authors: Jun Fu, Peng Zhang, Ruisheng Gu, and Lucas Böttcher.
-
-## Release contents
-
-- **This repository:** code, configurations, documentation and release manifests.
-- **Model weights:** [v1.0.0 Release](https://github.com/curious-child/Sensing-resilience-of-complex-systems-via-predictive-reconstructive-learning/releases/tag/v1.0.0),
-  in three ZIP assets (base PRISM models, SIS classifiers, neuronal classifiers).
-- **Datasets and experiment caches:** Zenodo publication is being prepared;
-  the DOI and download URLs will be added after publication. No DOI is claimed yet.
-
-`release/manifest.json` lists each archive and its individual files, sizes,
-SHA-256 checksums, purpose and original restoration path. Model weights and large
-data are not stored in Git history. See `release/VALIDATION.md` for verification
-results and limitations, and `release/excluded-files.json` for omitted files.
+PRISM learns resilience-related representations through joint prediction of node trajectories and network reconstruction. The representations support label-free tracking of resilience changes and classification with limited labeled samples. The experiments cover SIS epidemic and Wilson–Cowan neuronal dynamics on Erdős–Rényi and scale-free networks. Representation learning uses no resilience labels, and inference does not require network structure.
 
 ## Installation
 
-The original environment uses Python 3.10.11, PyTorch 2.0.1 and PyG 2.5.3.
-Create a separate environment; run commands from the repository root.
+The reference environment uses Python 3.10.11, PyTorch 2.0.1 with CUDA 11.8 and PyTorch Geometric 2.5.3. The following commands target Linux with a compatible NVIDIA driver:
 
 ```bash
-python -m venv .venv
-# Windows PowerShell: .venv/Scripts/Activate.ps1
-# Linux/macOS shell: source .venv/bin/activate
-python -m pip install -r requirements.txt torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.0.1+cpu.html
-python tools/fix_windows_dependency.py
-python -m pip check
+conda create -n prism python=3.10.11 -y
+conda activate prism
+python -m pip install --upgrade pip
+python -m pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
+python -m pip install torch-scatter torch-sparse torch-cluster torch-spline-conv -f https://data.pyg.org/whl/torch-2.0.1+cu118.html
+python -m pip install -r requirements.txt
 ```
 
-The command above installs CPU wheels for validation and cache plotting. For
-GPU training/inference, first install PyTorch 2.0.1 with the appropriate CUDA
-build and matching PyG extension wheels; the original setup used CUDA 11.8
-and `https://data.pyg.org/whl/torch-2.0.1+cu118.html`.
-Do not mix CPU and CUDA extension wheels.
-The Windows helper removes an unused POSIX-only import in torch-timeseries
-0.1.10, matching the existing environment's compatibility adjustment. It changes
-no model layer or computation.
+The project was developed on Windows; the Linux installation above has not been independently validated. For CPU execution or another CUDA version, select matching PyTorch and PyG builds. On Windows, `torch-timeseries==0.1.10` also needs its unused POSIX `resource` imports removed from its dataset loaders.
 
-## Download and restore
+## Data and checkpoints
+
+Trained PRISM models and classifiers are available in the [v1.0.0 model Release](https://github.com/curious-child/Sensing-resilience-of-complex-systems-via-predictive-reconstructive-learning/releases/tag/v1.0.0). Training and test datasets, simulated trajectories and figure caches are being uploaded to [Zenodo](https://doi.org/10.5281/zenodo.22969883). **The Zenodo record is not yet public.**
+
+Download the required archives and extract them into the repository root, preserving their directory structure:
+
+```text
+dataset/                  Training and test trajectories
+experiment_results/       Model checkpoints, configurations and analysis caches
+```
+
+With the downloaded files in the repository root:
 
 ```bash
-python tools/download_assets.py --category caches
-python tools/download_assets.py --category models
-python tools/download_assets.py --category data
-# Or select --category all. Archives are retained in .downloads/.
-python tools/download_assets.py --category all --verify-only
+unzip -n prism-v1.0.0-models-base.zip
+unzip -n prism-v1.0.0-models-sis.zip
+unzip -n prism-v1.0.0-models-neuronal.zip
 ```
 
-The downloader checks archive and file hashes, restores original relative paths,
-skips identical files and refuses to overwrite different existing content.
-The two data ZIPs are hosted as ordered 256 MiB transport parts to make interrupted
-transfers easier to retry. The downloader fetches and verifies each part, joins
-them, verifies the original ZIP hash, and then extracts it. Completed parts are
-reused on a retry; no scientific data are changed by splitting or joining.
-For archives downloaded manually, use `--archive-dir /path/to/archives`.
-The data commands require the Zenodo URLs to have been published in the manifest.
+The SIS and neuronal data ZIPs are split into numbered parts. Once available, download all parts of each required dataset and join them in order before extraction:
 
-The source was developed on Windows. On a case-sensitive filesystem, two loaders
-expect `dataset/neuronal_supervised` while the historical folder is
-`dataset/Neuronal_supervised`. After restoring data, create this alias if absent:
+```bash
+cat prism-v1.0.0-data-sis.zip.part* > prism-v1.0.0-data-sis.zip
+cat prism-v1.0.0-data-neuronal.zip.part* > prism-v1.0.0-data-neuronal.zip
+unzip -n prism-v1.0.0-data-sis.zip
+unzip -n prism-v1.0.0-data-neuronal.zip
+```
+
+Extract the separate figure-cache ZIP in the same way. The Release includes `SHA256SUMS.txt` for checking downloaded files. On case-sensitive filesystems, create the alias required by two historical neuronal loaders if it is absent:
 
 ```bash
 ln -s Neuronal_supervised dataset/neuronal_supervised
 ```
 
-## Reproduce figures from supplied caches
+## Simulation and training
 
-Restore the **caches** package first. All ten experimental figure entrypoints
-were exercised using the supplied caches with model/data loading disabled.
-Fig. 1 is a conceptual illustration and has no numerical reproduction script.
+The data-generation configurations select training, perturbation and classification experiments. Generate new datasets in a separate directory with:
 
-| Figure | Script in `experiment_visualization/` | Cache directory under `experiment_results/` |
-|---|---|---|
-| Main Fig. 2 | `plot_inductive_loss_task_analysis.py` | each dynamics: `loss_inductive_analysis/` |
-| Main Fig. 3 | `plot_inductive_representation_early_warning.py` | each dynamics: `loss_inductive_analysis/` |
-| Main Fig. 4 | `plot_resilience_inference_performance.py` | each dynamics: `resilience_inference_analysis/` |
-| Main Fig. 5 | `plot_latent_embedding_tsne.py` | each dynamics: `resilience_inference_analysis/figure5_tsne/` |
-| Supplementary Fig. 1 | `plot_transductive_loss_task_analysis.py` | each dynamics: `loss_transductive_analysis/` |
-| Supplementary Fig. 2 | `plot_loss_parameter_sensitivity.py` | `SIS/model_param_analysis/` |
-| Supplementary Fig. 3 | `plot_training_parameter_sensitivity.py` | `SIS/model_param_analysis/` |
-| Supplementary Fig. 4 | `plot_knn_gbb_comparison.py` | each dynamics: `resilience_inference_analysis/` |
-| Supplementary Fig. 5 | `plot_neuronal_binary_classification.py` | `Neuronal/resilience_inference_analysis/` |
-| Supplementary Fig. 6 | `plot_sis_scaling.py` | `SIS/scaling/` |
+```bash
+python dataset/sis_dataset_generation/generate_sis_dataset.py --config dataset/sis_dataset_generation/config.yaml --output generated_data
+python dataset/neuronal_dataset_generation/generate_neuronal_dataset.py --config dataset/neuronal_dataset_generation/config.yaml --output generated_data
+```
 
-For example:
+For PRISM pretraining, edit `configs/grid_search/AE_recon_pred_model.yaml`: set `dataset.spdata_file_path` to the training directory, `loss.loss_type` to `["multitask"]`, and `net.device` to an available device, such as `["cuda:0"]`. Then run:
+
+```bash
+python multitask_model_train.py --cfg configs/grid_search/AE_recon_pred_model.yaml --train_mode grid
+```
+
+The supplied configuration otherwise selects separate prediction and reconstruction runs. Experiment-specific settings are stored alongside the checkpoints in `experiment_results/`.
+
+## Inference and figure reproduction
+
+Inference and cache-generation routines are in `experiment_process/`. After restoring the corresponding models and data, this command computes or reuses SIS inductive-analysis caches:
+
+```bash
+python experiment_process/generate_inductive_analysis_cache.py --dynamic SIS --task multitask --device cuda:0
+```
+
+To redraw the reported figures, restore the supplied figure caches and run the relevant scripts from the repository root:
 
 ```bash
 python experiment_visualization/plot_inductive_loss_task_analysis.py
 python experiment_visualization/plot_resilience_inference_performance.py
-python experiment_visualization/plot_sis_scaling.py
 ```
 
-Figures are written under `experiment_results/figures/`. Classification plots use
-weighted F1 means and observed min–max ranges; scaling plots use their recorded
-standard deviations. Cache values, class definitions and scientific plotting
-logic have not been altered for publication.
+| Figure | Script in `experiment_visualization/` |
+|---|---|
+| Figure 2 | `plot_inductive_loss_task_analysis.py` |
+| Figure 3 | `plot_inductive_representation_early_warning.py` |
+| Figure 4 | `plot_resilience_inference_performance.py` |
+| Figure 5 | `plot_latent_embedding_tsne.py` |
+| Supplementary Figure 1 | `plot_transductive_loss_task_analysis.py` |
+| Supplementary Figure 2 | `plot_loss_parameter_sensitivity.py` |
+| Supplementary Figure 3 | `plot_training_parameter_sensitivity.py` |
+| Supplementary Figure 4 | `plot_knn_gbb_comparison.py` |
+| Supplementary Figure 5 | `plot_neuronal_binary_classification.py` |
+| Supplementary Figure 6 | `plot_sis_scaling.py` |
 
-**Use the complete supplied caches for historical figures.** Existing entrypoints
-can generate missing caches and, in some cases, train missing models. Do not use
-`--force`/`--force-cache`, remove caches, or request partial trial selections when
-the intention is only to redraw the reported results.
+Outputs are saved under `experiment_results/figures/`. Figure 1 is a conceptual illustration. Cache-based plotting does not require retraining; missing caches can trigger inference or training, so retain the supplied caches and avoid force options when redrawing historical results.
 
-## Inference and new training
+The original pretraining datasets are awaiting integration from the server. Historical scaling inputs and some classifier checkpoints are not included; their cached results support figure reproduction, but not complete regeneration of every historical experiment.
 
-These are distinct from cache-based reproduction:
+## Repository structure
 
-1. **Existing models:** restore models and the corresponding test/train reference
-   data. The `experiment_process/` scripts implement inference and cache creation;
-   inspect their `--help` before using a force option. All 19 base models and 437
-   nonempty classifier checkpoints passed strict loading in their corresponding
-   architectures. This is a compatibility check, not a claim that fresh inference
-   was run for every reported experiment.
-2. **New data and training:** use the SIS and neuronal generators and their
-   documented configurations in `dataset/sis_dataset_generation/` and
-   `dataset/neuronal_dataset_generation/`. Generate into a separate directory.
-   Newly generated data are not the missing historical original data.
-   The pretraining entrypoint is:
+```text
+configs/                   Model and training configurations
+dataset/                   Simulation and data-generation code
+models/                    PRISM and baseline architectures
+loss_functions/            Prediction and reconstruction objectives
+train/                     Training loops
+optimizers/                Optimizer utilities
+experiment_process/        Inference and analysis-cache generation
+experiment_visualization/  Manuscript figure scripts
+experiment_results/        Experiment-specific configurations
+utils/                     Shared data and model utilities
+```
 
-   ```bash
-   python multitask_model_train.py --cfg configs/grid_search/AE_recon_pred_model.yaml --train_mode grid
-   ```
+## Citation
 
-   Configure dataset paths and hyperparameters before running: set
-   `loss.loss_type: ["multitask"]` for joint learning (the supplied grid currently
-   lists separate prediction/reconstruction runs), and change `net.device`
-   from its historical `cuda:2` value to an available device. Original raw
-   pretraining folders `dataset/SIS/` and `dataset/Neuronal/` are empty in the
-   supplied project. The historical `dataset/SIS_scaling/` files were not found.
-   Scaling caches can be plotted, but those original large-network inputs cannot
-   be restored from this release.
+If this repository contributes to your work, please cite the associated manuscript:
 
-Sixty empty neuronal classifier files are excluded. Some historical MLP/ResInf
-results are supplied as verified aggregate summaries rather than complete
-per-sample predictions. In particular, neuronal-binary MLP checkpoints for the
-historical comparison were not saved. These limitations prevent claiming full
-end-to-end regeneration of every historical result. No models were retrained to
-fill gaps for this release.
+Jun Fu, Peng Zhang, Ruisheng Gu and Lucas Böttcher. *Sensing resilience of complex systems via predictive-reconstructive learning*.
 
-## Code structure
+## Acknowledgements
 
-`models/`: PRISM and baseline architectures; `loss_functions/`: training losses;
-`train/`, `optimizers/`, `configs/`: training and configuration;
-`dataset/*_dataset_generation/`: simulation code;
-`experiment_process/`: evaluation and cache generation;
-`experiment_visualization/`: figure entrypoints; `utils/`: shared utilities;
-`tools/`: release download and verification.
+The implementation uses or adapts components from [ResInf](https://github.com/tsinghua-fib-lab/ResInf), [Non-stationary Transformers](https://github.com/thuml/Nonstationary_Transformers) and [geoopt](https://github.com/geoopt/geoopt). The GBB baseline follows Gao, Barzel and Barabási, [Universal resilience patterns in complex networks](https://doi.org/10.1038/nature16948). The legacy geoopt optimizer is not used by the configured Adam training path.
 
-## Citation and license
+## License
 
-See `CITATION.cff` for authorship and the software title. A manuscript DOI has not
-been added because none has been verified. The authors' code and released
-self-generated data/caches use MIT; third-party notices and source references are
-listed in `THIRD_PARTY_NOTICES.md` and `licenses/`.
+The authors' code is released under the MIT License. Third-party components retain their original licenses and copyright notices, reproduced in [LICENSE](LICENSE).

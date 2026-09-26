@@ -21,3 +21,10 @@ experiment_results/**/*.svg
 experiment_results/figures*/
 dataset/SIS_scaling/
 
+
+# Local publication helpers and records
+/tools/
+/release/
+/licenses/
+/CITATION.cff
+/THIRD_PARTY_NOTICES.md
