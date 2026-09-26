@@ -1,0 +1,32 @@
+# Run from the project root. Generate these groups before formal evaluation.
+methods: [knn, mlp, resinf, gbb]
+training_ratio: 0.1
+trial_ids: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+device: cuda:0
+observations: 5
+windows: 10
+seed: 42
+cpu_threads: 1
+warmup: 10
+repeats: 30
+timing_samples: 20
+timeout_seconds: 120
+startup_timeout_seconds: 180
+memory_poll_seconds: 0.001
+allow_missing_methods: false
+test_only: false
+datasets:
+  - {topology: ER, n: 30, path: dataset/SIS_scaling/ER/N30, params_file: sis_params.json}
+  - {topology: ER, n: 100, path: dataset/SIS_scaling/ER/N100, params_file: sis_params.json}
+  - {topology: ER, n: 300, path: dataset/SIS_scaling/ER/N300, params_file: sis_params.json}
+  - {topology: ER, n: 1000, path: dataset/SIS_scaling/ER/N1000, params_file: sis_params.json}
+  - {topology: ER, n: 3000, path: dataset/SIS_scaling/ER/N3000, params_file: sis_params.json}
+  - {topology: ER, n: 10000, path: dataset/SIS_scaling/ER/N10000, params_file: sis_params.json}
+  - {topology: ER, n: 30000, path: dataset/SIS_scaling/ER/N30000, params_file: sis_params.json}
+  - {topology: SF, n: 30, path: dataset/SIS_scaling/SF/N30, params_file: sis_params.json}
+  - {topology: SF, n: 100, path: dataset/SIS_scaling/SF/N100, params_file: sis_params.json}
+  - {topology: SF, n: 300, path: dataset/SIS_scaling/SF/N300, params_file: sis_params.json}
+  - {topology: SF, n: 1000, path: dataset/SIS_scaling/SF/N1000, params_file: sis_params.json}
+  - {topology: SF, n: 3000, path: dataset/SIS_scaling/SF/N3000, params_file: sis_params.json}
+  - {topology: SF, n: 10000, path: dataset/SIS_scaling/SF/N10000, params_file: sis_params.json}
+  - {topology: SF, n: 30000, path: dataset/SIS_scaling/SF/N30000, params_file: sis_params.json}

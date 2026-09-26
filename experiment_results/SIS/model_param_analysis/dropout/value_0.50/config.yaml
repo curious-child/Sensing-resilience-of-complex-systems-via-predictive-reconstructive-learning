@@ -1,0 +1,73 @@
+dataset:
+  max_sample_num: 1
+  observations: 5
+  spdata_file_path: dataset/SIS
+  windows: 10
+loss:
+  degree_loss_weight: 1.0
+  log_var: 0.0
+  loss_type: hybrid loss
+net:
+  Dy_transformer:
+    activation: gelu
+    d_ff: 256
+    d_layers: 2
+    dropout: 0.5
+    e_layers: 4
+    factor: 3
+    n_heads: 8
+    output_attention: false
+    p_hidden_dims:
+    - 64
+    - 64
+    p_hidden_layers: 2
+  Gg_diffusion_model:
+    arch: TGNN_degree_guided
+    diffusion_steps: 128
+    dp_rate: 0.1
+    final_prob_edge:
+    - 1-1e-12
+    - 1e-12
+    final_prob_node:
+    - 1-1e-12
+    - 1e-12
+    freeze_pretrain: false
+    graph_estimator: true
+    load_pretrain: false
+    loss_type: vb_ce_xt_prescribred_st
+    noise_schedule: linear
+    norm: Graph
+    num_edge_classes: 2
+    num_heads:
+    - 8
+    - 8
+    - 8
+    - 8
+    - 1
+    num_node_classes: 2
+    parametrization: xt_prescribed_st
+    sample_time_method: importance
+  device: cuda:1
+  edge_decoder_type: Hadamard_MLPPredictor
+  hidden_dim: 128
+  model_task: EDGE_recon
+  neg_samples_ratio: 1.0
+  use_Gg_diffusion: false
+optimizer:
+  MstepLR_gamma: 0.1
+  MstepLR_milestones:
+  - 50
+  lr: 0.001
+  optimizer_name: Adam
+  scheduler: MultiStepLR
+  scheduler_set: false
+  weight_decay: 1e-5
+train:
+  ckpt: true
+  ckpt_period: 20
+  model_evaluation: hold_out
+  test_set: true
+  train_batch_size: 64
+  train_epochs: 100
+  traindata_size: 0.95
+  val_batch_size: 64

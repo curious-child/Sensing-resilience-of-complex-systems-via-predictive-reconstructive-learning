@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this software and the accompanying manuscript when using PRISM."
+title: "Sensing resilience of complex systems via predictive-reconstructive learning"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Fu
+    given-names: Jun
+  - family-names: Zhang
+    given-names: Peng
+  - family-names: Gu
+    given-names: Ruisheng
+  - family-names: Böttcher
+    given-names: Lucas
+repository-code: "https://github.com/curious-child/Sensing-resilience-of-complex-systems-via-predictive-reconstructive-learning"
+license: MIT

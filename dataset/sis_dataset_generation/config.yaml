@@ -1,0 +1,37 @@
+# 首批规模监督测试集；其他模式可加入 modes。
+modes: [classification]
+seed: 20260906
+initial_size_range: [20, 300]
+train_mothers: 500
+max_mothers: 1000
+max_candidates: 1000
+delta: 6
+classification_delta: [2, 8]
+label_threshold: 0.001
+classification_splits: {train_dataset: 0, val_dataset: 0, test_dataset: 0}
+scaling_topologies: [ER, SF]
+scaling_sizes: [30, 100, 300]
+scaling_count: 10
+# N >= threshold: CSR adjacency and size-directed augmentation search.
+large_graph_threshold: 2000
+max_edge_augmentations: 128
+max_sf_stubs: 10000000
+perturbation_n: 300
+min_nodes: 20
+save_gbb_times: true
+gbb_warmup: 10
+gbb_repeats: 30
+simulation:
+  method: auto  # LSODA for small systems; explicit RK45 for large systems.
+  explicit_solver_threshold: 2000
+  trajectory_timeout_seconds: 1800
+  trajectories: 16
+  T: 20
+  time_points: 200
+  saved_points: 20
+  infection_rate: 1.0
+  rtol: 0.000001
+  atol: 0.000000001
+  change_tol: 0.000001
+  residual_tol: 0.0000001
+  max_T: 10240

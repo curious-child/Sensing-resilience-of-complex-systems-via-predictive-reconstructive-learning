@@ -1,0 +1,2512 @@
+[
+  {
+    "path": ".idea/.gitignore",
+    "size": 184,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": ".idea/.name",
+    "size": 17,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": ".idea/graph_generation_model_train.iml",
+    "size": 488,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": ".idea/inspectionProfiles/profiles_settings.xml",
+    "size": 174,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": ".idea/inspectionProfiles/Project_Default.xml",
+    "size": 816,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": ".idea/misc.xml",
+    "size": 288,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": ".idea/modules.xml",
+    "size": 315,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": ".idea/workspace.xml",
+    "size": 22325,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "__pycache__/multitask_model_train.cpython-310.pyc",
+    "size": 4182,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "configs/__pycache__/configs_diffusion_multi.cpython-310.pyc",
+    "size": 813,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "dataset/neuronal_dataset_generation/__pycache__/generate_neuronal_dataset.cpython-310.pyc",
+    "size": 19474,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "dataset/neuronal_dataset_generation/__pycache__/test_generation.cpython-310.pyc",
+    "size": 16002,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "dataset/neuronal_dataset_generation/gbb_critical_values.csv",
+    "size": 1114,
+    "purpose": "not a release input"
+  },
+  {
+    "path": "dataset/sis_dataset_generation/__pycache__/generate_sis_dataset.cpython-310.pyc",
+    "size": 38050,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "dataset/sis_dataset_generation/__pycache__/validate_generation.cpython-310.pyc",
+    "size": 12676,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/benchmark_sis_scaling.cpython-310.pyc",
+    "size": 38683,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/generate_figure5_tsne_cache.cpython-310.pyc",
+    "size": 15196,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/generate_inductive_analysis_cache.cpython-310.pyc",
+    "size": 14422,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/generate_model_parameter_analysis_cache.cpython-310.pyc",
+    "size": 22458,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/generate_resilience_inference_cache.cpython-310.pyc",
+    "size": 43686,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/generate_transductive_analysis_cache.cpython-310.pyc",
+    "size": 14469,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/plot_sis_scaling.cpython-310.pyc",
+    "size": 7170,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/resinf_inference.cpython-310.pyc",
+    "size": 9917,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/run_full_inference_safe.cpython-310.pyc",
+    "size": 2848,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/sis_scaling_core.cpython-310.pyc",
+    "size": 8803,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/sis_scaling_models.cpython-310.pyc",
+    "size": 7773,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_process/__pycache__/test_resilience_inference_smoke.cpython-310.pyc",
+    "size": 23854,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_all_18a61ef928d8.svg",
+    "size": 90056,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_all_43aa0382c7ca.png",
+    "size": 503730,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_all_a522f40f4f89.pdf",
+    "size": 51043,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_all_d9694b579da7.png",
+    "size": 499026,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_all_fe5778c02754.pdf",
+    "size": 51052,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_all_notes_ffd5c311c74f.txt",
+    "size": 584,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_knn_03fef4ce8642.pdf",
+    "size": 51775,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_knn_245ef7e4f198.svg",
+    "size": 77745,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_knn_31b861724535.png",
+    "size": 520589,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_knn_6f535874995d.png",
+    "size": 539016,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_knn_8d4fc9c364c6.pdf",
+    "size": 51920,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_knn_notes_ffd5c311c74f.txt",
+    "size": 584,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_neuronal_2d_02be057081b3.pdf",
+    "size": 55361,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_neuronal_2d_25d0b68cbabc.pdf",
+    "size": 55335,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_neuronal_2d_3626f7083481.png",
+    "size": 534861,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_neuronal_2d_4be960574ba4.png",
+    "size": 547074,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_neuronal_2d_dcc5cc8fe91b.svg",
+    "size": 86052,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/archive/supervised_performance_neuronal_2d_notes_ffd5c311c74f.txt",
+    "size": 584,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/emb_visual.pdf",
+    "size": 197118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/emb_visual.png",
+    "size": 2954608,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/latent_warning.pdf",
+    "size": 328340,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/latent_warning.png",
+    "size": 1425067,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/loss_task_analysis_inductive.pdf",
+    "size": 348893,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/loss_task_analysis_inductive.png",
+    "size": 1718958,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/loss_task_analysis_transductive.pdf",
+    "size": 342320,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/loss_task_analysis_transductive.png",
+    "size": 1849649,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/param_loss_sensitivity.pdf",
+    "size": 201248,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/param_loss_sensitivity.png",
+    "size": 1544962,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/param_train_sensitivity.pdf",
+    "size": 225771,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/param_train_sensitivity.png",
+    "size": 1630423,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/sis_scaling/SIS_scaling_ER_SF.pdf",
+    "size": 29955,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/sis_scaling/SIS_scaling_ER_SF.png",
+    "size": 184996,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/sis_scaling/SIS_scaling_ER_SF.svg",
+    "size": 94913,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/SIS_scaling_ER_SF.pdf",
+    "size": 29905,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/supervised_performance_all.pdf",
+    "size": 51045,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/supervised_performance_all.png",
+    "size": 503730,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/supervised_performance_knn.pdf",
+    "size": 51776,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/supervised_performance_knn.png",
+    "size": 520589,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/supervised_performance_neuronal_2d.pdf",
+    "size": 55342,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/figures/supervised_performance_neuronal_2d.png",
+    "size": 534861,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_0/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_0/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_1/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_1/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_2/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_2/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_3/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_3/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_4/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_4/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_5/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_5/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_6/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_6/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_7/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_7/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_8/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_8/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_9/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_9/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_0/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_0/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_1/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_1/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_2/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_2/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_3/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_3/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_4/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_4/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_5/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_5/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_6/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_6/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_7/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_7/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_8/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_8/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_9/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_9/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_0/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_0/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_1/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_1/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_2/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_2/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_3/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_3/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_4/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_4/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_5/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_5/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_6/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_6/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_7/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_7/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_8/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_8/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_9/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_9/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_0/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_0/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_1/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_1/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_2/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_2/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_3/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_3/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_4/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_4/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_5/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_5/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_6/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_6/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_7/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_7/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_8/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_8/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_9/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_9/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_0/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_0/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_1/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_1/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_2/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_2/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_3/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_3/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_4/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_4/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_5/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_5/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_6/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_6/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_7/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_7/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_8/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_8/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_9/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_9/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_0/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_0/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_1/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_1/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_2/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_2/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_3/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_3/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_4/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_4/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_5/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_5/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_6/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_6/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_7/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_7/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_8/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_8/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_9/model.pth",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_9/results_summary.txt",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_0/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_1/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_2/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_3/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_4/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_5/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_6/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_7/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_8/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_9/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_0/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_1/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_2/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_3/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_4/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_5/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_6/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_7/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_8/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_9/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_0/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_1/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_2/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_3/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_4/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_5/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_6/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_7/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_8/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_9/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_0/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_1/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_2/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_3/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_4/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_5/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_6/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_7/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_8/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_9/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/mlp/mintrainsample_data_ratio_comparison_with_variance.png",
+    "size": 165994,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.002_sample_0/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.002_sample_1/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.002_sample_2/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.002_sample_3/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.002_sample_4/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.002_sample_5/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.002_sample_6/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.002_sample_7/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.002_sample_8/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.002_sample_9/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.005_sample_0/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.005_sample_1/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.005_sample_2/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.005_sample_3/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.005_sample_4/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.005_sample_5/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.005_sample_6/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.005_sample_7/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.005_sample_8/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.005_sample_9/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.010_sample_0/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.010_sample_1/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.010_sample_2/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.010_sample_3/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.010_sample_4/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.010_sample_5/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.010_sample_6/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.010_sample_7/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.010_sample_8/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.010_sample_9/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.020_sample_0/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.020_sample_1/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.020_sample_2/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.020_sample_3/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.020_sample_4/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.020_sample_5/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.020_sample_6/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.020_sample_7/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.020_sample_8/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.020_sample_9/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.050_sample_0/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.050_sample_1/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.050_sample_2/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.050_sample_3/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.050_sample_4/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.050_sample_5/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.050_sample_6/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.050_sample_7/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.050_sample_8/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.050_sample_9/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.100_sample_0/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.100_sample_1/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.100_sample_2/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.100_sample_3/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.100_sample_4/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.100_sample_5/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.100_sample_6/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.100_sample_7/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.100_sample_8/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.100_sample_9/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.200_sample_0/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.200_sample_1/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.200_sample_2/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.200_sample_3/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.200_sample_4/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.200_sample_5/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.200_sample_6/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.200_sample_7/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.200_sample_8/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.200_sample_9/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.400_sample_0/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.400_sample_1/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.400_sample_2/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.400_sample_3/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.400_sample_4/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.400_sample_5/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.400_sample_6/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.400_sample_7/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.400_sample_8/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.400_sample_9/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.800_sample_0/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.800_sample_1/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.800_sample_2/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.800_sample_3/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.800_sample_4/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.800_sample_5/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.800_sample_6/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.800_sample_7/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.800_sample_8/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_0.800_sample_9/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_1.000_sample_0/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_1.000_sample_1/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_1.000_sample_2/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_1.000_sample_3/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_1.000_sample_4/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_1.000_sample_5/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_1.000_sample_6/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_1.000_sample_7/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_1.000_sample_8/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/ratio_1.000_sample_9/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/Neuronal/resilience_inference_analysis/classifier_models/three_class/resinf/Resinf_model_performance.png",
+    "size": 139801,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_inductive_analysis/prediction/Compare_prediction_NetStruct_ER_remove_type_degree.png",
+    "size": 76676,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_inductive_analysis/prediction/Compare_prediction_NetStruct_ER_remove_type_random.png",
+    "size": 78005,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_inductive_analysis/prediction/Compare_prediction_NetStruct_SF_remove_type_degree.png",
+    "size": 71830,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_inductive_analysis/prediction/Compare_prediction_NetStruct_SF_remove_type_random.png",
+    "size": 86795,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_inductive_analysis/reconstruction/Compare_multitask_NetStruct_ER_remove_type_degree.png",
+    "size": 110744,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_inductive_analysis/reconstruction/Compare_multitask_NetStruct_ER_remove_type_random.png",
+    "size": 115244,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_inductive_analysis/reconstruction/Compare_multitask_NetStruct_SF_remove_type_degree.png",
+    "size": 103937,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_inductive_analysis/reconstruction/Compare_multitask_NetStruct_SF_remove_type_random.png",
+    "size": 124666,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_transductive_analysis/NetStruct_ER_remove_type_degree.svg",
+    "size": 445719,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_transductive_analysis/NetStruct_ER_remove_type_random.svg",
+    "size": 1016414,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_transductive_analysis/NetStruct_SF_remove_type_degree.svg",
+    "size": 1733652,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/loss_transductive_analysis/NetStruct_SF_remove_type_random.svg",
+    "size": 1021756,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/model_param_analysis/README.md",
+    "size": 1434,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/archive/obsolete_legacy_replay/binary_knn_trials_legacy_replay.jsonu_4xns6p.tmp",
+    "size": 6117123,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_0/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_1/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_2/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_3/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_4/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_5/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_6/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_7/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_8/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.002_sample_9/results_summary.txt",
+    "size": 113,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_0/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_1/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_2/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_3/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_4/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_5/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_6/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_7/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_8/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.005_sample_9/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_0/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_1/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_2/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_3/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_4/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_5/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_6/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_7/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_8/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.010_sample_9/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_0/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_1/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_2/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_3/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_4/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_5/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_6/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_7/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_8/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.020_sample_9/results_summary.txt",
+    "size": 114,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_0/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_1/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_2/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_3/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_4/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_5/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_6/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_7/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_8/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.050_sample_9/results_summary.txt",
+    "size": 115,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_0/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_1/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_2/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_3/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_4/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_5/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_6/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_7/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_8/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.100_sample_9/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_0/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_1/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_2/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_3/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_4/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_5/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_6/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_7/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_8/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.200_sample_9/results_summary.txt",
+    "size": 116,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_0/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_1/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_2/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_3/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_4/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_5/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_6/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_7/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_8/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.400_sample_9/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_0/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_1/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_2/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_3/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_4/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_5/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_6/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_7/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_8/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_0.800_sample_9/results_summary.txt",
+    "size": 117,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_0/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_1/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_2/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_3/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_4/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_5/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_6/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_7/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_8/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_results/SIS/resilience_inference_analysis/classifier_models/binary/resinf/ratio_1.000_sample_9/results_summary.txt",
+    "size": 118,
+    "purpose": "rendered output, log or temporary file"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/model_parameter_plotting.cpython-310.pyc",
+    "size": 7676,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_figure2.cpython-310.pyc",
+    "size": 8991,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_figure3.cpython-310.pyc",
+    "size": 8931,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_figure4.cpython-310.pyc",
+    "size": 1107,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_figure5.cpython-310.pyc",
+    "size": 9058,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_inductive_loss_task_analysis.cpython-310.pyc",
+    "size": 11620,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_inductive_representation_early_warning.cpython-310.pyc",
+    "size": 9375,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_knn_gbb_comparison.cpython-310.pyc",
+    "size": 1216,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_latent_embedding_tsne.cpython-310.pyc",
+    "size": 9162,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_loss_parameter_sensitivity.cpython-310.pyc",
+    "size": 1257,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_neuronal_binary_classification.cpython-310.pyc",
+    "size": 1342,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_resilience_inference_performance.cpython-310.pyc",
+    "size": 1108,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_sis_scaling.cpython-310.pyc",
+    "size": 10761,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_sis_scaling.cpython-312.pyc",
+    "size": 17483,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_supplementary_figure1.cpython-310.pyc",
+    "size": 8889,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_supplementary_figure2.cpython-310.pyc",
+    "size": 1035,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_supplementary_figure3.cpython-310.pyc",
+    "size": 1022,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_supplementary_figure4.cpython-310.pyc",
+    "size": 1249,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_supplementary_figure5.cpython-310.pyc",
+    "size": 1371,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_training_parameter_sensitivity.cpython-310.pyc",
+    "size": 1245,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/plot_transductive_loss_task_analysis.cpython-310.pyc",
+    "size": 9310,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "experiment_visualization/__pycache__/resilience_inference_plotting.cpython-310.pyc",
+    "size": 9358,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "loss_functions/__init__.py",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "loss_functions/__pycache__/__init__.cpython-310.pyc",
+    "size": 225,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "loss_functions/__pycache__/loss_functions.cpython-310.pyc",
+    "size": 1622,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/__init__.py",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "models/__pycache__/__init__.cpython-310.pyc",
+    "size": 217,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/__pycache__/models.cpython-310.pyc",
+    "size": 605,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/act/__init__.py",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "models/act/__pycache__/__init__.cpython-310.pyc",
+    "size": 221,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/act/__pycache__/gnn_act.cpython-310.pyc",
+    "size": 677,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/layer/__init__.py",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "models/layer/__pycache__/__init__.cpython-310.pyc",
+    "size": 223,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/layer/__pycache__/AGNNConv.cpython-310.pyc",
+    "size": 6097,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/layer/__pycache__/FGNNConv.cpython-310.pyc",
+    "size": 10433,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/layer/__pycache__/gnn_conv.cpython-310.pyc",
+    "size": 1120,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/norm/__init__.py",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "models/norm/__pycache__/__init__.cpython-310.pyc",
+    "size": 222,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/norm/__pycache__/gnn_norm.cpython-310.pyc",
+    "size": 767,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/pool/__init__.py",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "models/pool/__pycache__/__init__.cpython-310.pyc",
+    "size": 222,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/pool/__pycache__/gnn_pool.cpython-310.pyc",
+    "size": 1413,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/pred_model/__init__.py",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "models/pred_model/__pycache__/__init__.cpython-310.pyc",
+    "size": 228,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/pred_model/__pycache__/AE_recon_model.cpython-310.pyc",
+    "size": 10739,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/pred_model/__pycache__/CVAE_recon_model.cpython-310.pyc",
+    "size": 8496,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/pred_model/__pycache__/NS_Transformer.cpython-310.pyc",
+    "size": 9352,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "models/pred_model/__pycache__/resinf.cpython-310.pyc",
+    "size": 5797,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "optimizers/__init__.py",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "optimizers/__pycache__/__init__.cpython-310.pyc",
+    "size": 221,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "optimizers/__pycache__/optimizers.cpython-310.pyc",
+    "size": 1616,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "optimizers/__pycache__/radam.cpython-310.pyc",
+    "size": 5142,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "train/__init__.py",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "train/__pycache__/__init__.cpython-310.pyc",
+    "size": 216,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "train/__pycache__/train_multisk_recon_repred.cpython-310.pyc",
+    "size": 4566,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "utils/__init__.py",
+    "size": 0,
+    "purpose": "empty file"
+  },
+  {
+    "path": "utils/__pycache__/__init__.cpython-310.pyc",
+    "size": 216,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "utils/__pycache__/data_visualization.cpython-310.pyc",
+    "size": 1263,
+    "purpose": "editor or runtime cache"
+  },
+  {
+    "path": "utils/__pycache__/utils.cpython-310.pyc",
+    "size": 21278,
+    "purpose": "editor or runtime cache"
+  }
+]

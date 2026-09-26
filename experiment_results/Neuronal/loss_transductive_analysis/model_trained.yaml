@@ -1,0 +1,21 @@
+Dy_transformer:
+  activation: gelu
+  d_ff: 256
+  d_layers: 2
+  dataset_nf: 1
+  dropout: 0.05
+  e_layers: 4
+  factor: 3
+  n_heads: 8
+  output_attention: false
+  p_hidden_dims:
+  - 64
+  - 64
+  p_hidden_layers: 2
+  windows: 10
+degree_loss_weight: 1.0
+device: cuda:1
+edge_decoder_type: Hadamard_MLPPredictor
+hidden_dim: 128
+lr: 0.001
+neg_samples_ratio: 1.0

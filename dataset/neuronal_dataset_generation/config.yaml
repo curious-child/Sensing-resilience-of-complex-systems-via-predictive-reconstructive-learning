@@ -1,0 +1,33 @@
+modes: [classification]
+seed: 20260907
+initial_size_range: [20, 300]
+train_mothers: 500
+max_mothers: 1000
+max_candidates: 1000
+# 轮流取候选，不改变各母网络内部的原增广规则。
+classification_mother_window: 256
+# 原分类加载器跳过N<=20；监督配额只计能够被原加载器读取的样本。
+min_usable_nodes: 20
+classification_splits: {train_dataset: 24, val_dataset: 12, test_dataset: 12}
+perturbation_n: 300
+min_nodes: 20
+save_supervised_terminal: true
+save_gbb_times: false
+gbb_warmup: 10
+gbb_repeats: 30
+parameters:
+  train: [[3.0, 1.5]]
+  perturbation: [[3.0, 1.5]]
+  classification: [[3.5, 2.0]]
+sampling:
+  train: {time_points: 200, saved_points: 20}
+  perturbation: {time_points: 200, saved_points: 20}
+  classification: {time_points: 100, saved_points: 100}
+simulation:
+  random_trajectories: 14
+  T: 200.0
+  max_T: 12800.0
+  rtol: 0.000001
+  atol: 0.000000001
+  change_tol: 0.000001
+  residual_tol: 0.0000001

@@ -1,0 +1,46 @@
+dataset:
+  max_sample_num: 1
+  observations: 5
+  spdata_file_path: dataset/SIS
+  windows: 10
+loss:
+  degree_loss_weight: 1.0
+  log_var: 0.0
+  loss_type: hybrid loss
+net:
+  Dy_transformer:
+    activation: gelu
+    d_ff: 256
+    d_layers: 2
+    dropout: 0.05
+    e_layers: 4
+    factor: 3
+    n_heads: 8
+    output_attention: false
+    p_hidden_dims:
+    - 64
+    - 64
+    p_hidden_layers: 2
+  device: cuda:2
+  edge_decoder_type: Hadamard_MLPPredictor
+  hidden_dim: 128
+  model_task: EDGE_recon
+  neg_samples_ratio: 1.0
+optimizer:
+  MstepLR_gamma: 0.1
+  MstepLR_milestones:
+  - 50
+  lr: 0.001
+  optimizer_name: Adam
+  scheduler: MultiStepLR
+  scheduler_set: false
+  weight_decay: 1e-5
+train:
+  ckpt: true
+  ckpt_period: 20
+  model_evaluation: hold_out
+  test_set: true
+  train_batch_size: 20
+  train_epochs: 200
+  traindata_size: 0.95
+  val_batch_size: 64

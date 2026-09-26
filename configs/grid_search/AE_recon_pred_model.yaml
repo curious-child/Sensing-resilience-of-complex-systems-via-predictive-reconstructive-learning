@@ -1,0 +1,44 @@
+out_dir: results/SIS/AE_model_multitask
+dataset:
+  spdata_file_path: ["dataset/SIS"]
+  windows: [10]
+  max_sample_num: [1]
+  observations: [5]
+loss:
+  loss_type: ["prediction","reconstruction"]#prediction,reconstruction,multitask
+  log_var: [0.0]
+  degree_loss_weight: [1.0]
+net:
+  model_task: ["AE_recon"]
+  device: ["cuda:2"]
+  edge_decoder_type: ["Hadamard_MLPPredictor"]
+  hidden_dim: [ 128 ]
+  neg_samples_ratio: [1.0]
+  Dy_transformer:
+    output_attention: [ False ]
+    dropout: [ 0.05 ]
+    factor: [ 3 ]
+    n_heads: [ 8 ]
+    d_ff: [ 256 ]
+    activation: [ gelu ]
+    e_layers: [ 4 ]
+    d_layers: [ 2 ]
+    p_hidden_dims: [ [ 64, 64 ] ]
+    p_hidden_layers: [ 2 ]
+optimizer:
+  optimizer_name: [Adam]
+  lr: [0.001]
+  weight_decay: [ 1e-5]
+  scheduler_set: [false]
+  scheduler: [MultiStepLR]
+  MstepLR_milestones: [[50]]
+  MstepLR_gamma: [0.1]
+train:
+  model_evaluation: ["hold_out"]
+  traindata_size: [0.95]
+  train_batch_size: [20]
+  val_batch_size: [64]
+  train_epochs: [200]
+  test_set: [True]
+  ckpt: [ True ]
+  ckpt_period: [ 50 ]
