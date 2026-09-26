@@ -12,7 +12,7 @@ scientific computation changes were made for publication.
 - 60 empty neuronal classifier files were excluded and recorded in
   `excluded-files.json`.
 - Three model ZIPs are each below 2 GiB. Two data ZIPs contain 57 data files;
-  one cache ZIP contains 177 records, summaries, arrays and provenance files.
+  one cache ZIP contains 161 records, summaries, arrays and provenance files.
 - Archives were extracted to independent locations. Every restored file was
   compared against its source SHA-256. Relative paths and file bytes are preserved.
 - Downloader tests passed for checksum rejection, path traversal rejection,
@@ -32,7 +32,7 @@ scientific computation changes were made for publication.
   Figs. 1–6) completed in the original environment and the fresh CPU environment.
   During these checks, `torch.load` and `pickle.load` were blocked so an absent
   cache could not silently trigger model inference, data loading or training.
-- All 177 cache file hashes remained unchanged after plotting.
+- All 161 selected cache file hashes remained unchanged after plotting.
 - Classification checks covered nine task/method cache groups: six historical
   aggregate groups had matching stored summary hashes and valid min–mean–max
   bounds; 300 KNN trial weighted F1 scores and their GBB scores were recomputed

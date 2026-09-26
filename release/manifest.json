@@ -480,8 +480,8 @@
     {
       "name": "prism-v1.0.0-caches.zip",
       "category": "caches",
-      "size": 85924971,
-      "sha256": "ebb4fc471e405c9822c630e4c8697feb0e363ae6353cf5fc5bf9f3cf7fd7fdc8",
+      "size": 84779387,
+      "sha256": "92db8f77c00bb20d14b5b24c8a0c0cbc35e7ee8fae740ee9b601862fd9029c6e",
       "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-caches.zip?download=1",
       "files": [
         {
@@ -1771,134 +1771,6 @@
           "sha256": "e12f671fcbf29d6d5c7f761c0497fc86f36e180cbcc9b47ecc78a13521feef72",
           "group": "caches",
           "restore_path": "experiment_results/SIS/scaling/summary.csv"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/multitask_ER_degree_record_train_False.json",
-          "size": 107720,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "9326b00f6ce950d2d1e50aeb34490dd2f8a9270444fe61a292bf68925817b754",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/multitask_ER_degree_record_train_False.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/multitask_ER_degree_record_train_True.json",
-          "size": 107698,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "2413acb2a44527a08e6376a95bc2c7f6243f1ea5ce30933ba21d2e86c7ccd8d8",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/multitask_ER_degree_record_train_True.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/multitask_ER_random_record_train_False.json",
-          "size": 280532,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "6fb40896dc35932806b276362607e5aceea9be90abd57eaca629494c5ac7d017",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/multitask_ER_random_record_train_False.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/multitask_ER_random_record_train_True.json",
-          "size": 280472,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "2a8d0bfe93bda9b2daa183cff21d09f460eb4fec6aa1d95c67e0cc0a1dc4c803",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/multitask_ER_random_record_train_True.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/multitask_SF_degree_record_train_False.json",
-          "size": 503144,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "e9814525d150360029233b2121edabb56456378bc5d5a9e63e62279853a5c3e7",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/multitask_SF_degree_record_train_False.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/multitask_SF_degree_record_train_True.json",
-          "size": 503354,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "d048829572fbd3238f98ce0a406ea0a16b320ba411f8dbe1b00fed230641a98e",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/multitask_SF_degree_record_train_True.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/multitask_SF_random_record_train_False.json",
-          "size": 274353,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "db370af733a56d1544d6729df0395d775cb9315e900cc9bec8ee51d86b649524",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/multitask_SF_random_record_train_False.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/multitask_SF_random_record_train_True.json",
-          "size": 274303,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "43ba41425fc8f267c8c7e2521fb22aef88997d7c7e2f7f68ecc9766b7e209799",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/multitask_SF_random_record_train_True.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/prediction_ER_degree_record_train_True.json",
-          "size": 101368,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "0e1ea8fe442c12281ff7b60d713a27d418cfb3cf31780ffe893417c538e8a3ba",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/prediction_ER_degree_record_train_True.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/prediction_ER_random_record_train_True.json",
-          "size": 264165,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "332819c0c447beb16e4a8c8dfc0b6b5b32608e158299d34da8027bd30eee50a8",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/prediction_ER_random_record_train_True.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/prediction_SF_degree_record_train_True.json",
-          "size": 474186,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "c49694867b3f58badc9c7a9d096620d351b145e87c834b332350dec8dc53e8d9",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/prediction_SF_degree_record_train_True.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/prediction_SF_random_record_train_True.json",
-          "size": 258072,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "56391c801f5cdba7b92e6a287ed93c9d17ddeb1527e29205702c9b4bbc14d8a2",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/prediction_SF_random_record_train_True.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/reconstruction_ER_degree_record_train_True.json",
-          "size": 103281,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "32ba82832eb22bb7e25b8791c9e0a5cea40fbd9fad935011b84253948723d6c5",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/reconstruction_ER_degree_record_train_True.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/reconstruction_ER_random_record_train_True.json",
-          "size": 269208,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "31c21244d4e177658bb6e4daa42ba9f417e3866c562da70514cec16dd5ad5246",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/reconstruction_ER_random_record_train_True.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/reconstruction_SF_degree_record_train_True.json",
-          "size": 482989,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "50994a370a71eaa7f427a5e3b77b61ee497d2ce77cdb53924a93fc3486c2b52a",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/reconstruction_SF_degree_record_train_True.json"
-        },
-        {
-          "path": "experiment_results/SIS/task_analysis/reconstruction_SF_random_record_train_True.json",
-          "size": 263191,
-          "purpose": "experiment record, cached metrics, predictions, indices or provenance",
-          "sha256": "aaf53d696b80130cd2e4dc22223755da835e5dddc4426b43f515a06882f5697b",
-          "group": "caches",
-          "restore_path": "experiment_results/SIS/task_analysis/reconstruction_SF_random_record_train_True.json"
         }
       ]
     },
