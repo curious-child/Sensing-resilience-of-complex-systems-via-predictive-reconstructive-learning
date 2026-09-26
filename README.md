@@ -100,7 +100,7 @@ python experiment_visualization/plot_resilience_inference_performance.py
 
 Outputs are saved under `experiment_results/figures/`. Figure 1 is a conceptual illustration. Cache-based plotting does not require retraining; missing caches can trigger inference or training, so retain the supplied caches and avoid force options when redrawing historical results.
 
-The original pretraining datasets are awaiting integration from the server. Historical scaling inputs and some classifier checkpoints are not included; their cached results support figure reproduction, but not complete regeneration of every historical experiment.
+The supplied caches support reproduction of the manuscript figures; running the experiments from scratch requires the corresponding datasets and configurations.
 
 ## Repository structure
 
