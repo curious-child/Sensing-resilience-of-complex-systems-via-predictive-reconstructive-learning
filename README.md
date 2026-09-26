@@ -55,6 +55,10 @@ python tools/download_assets.py --category all --verify-only
 
 The downloader checks archive and file hashes, restores original relative paths,
 skips identical files and refuses to overwrite different existing content.
+The two data ZIPs are hosted as ordered 256 MiB transport parts to make interrupted
+transfers easier to retry. The downloader fetches and verifies each part, joins
+them, verifies the original ZIP hash, and then extracts it. Completed parts are
+reused on a retry; no scientific data are changed by splitting or joining.
 For archives downloaded manually, use `--archive-dir /path/to/archives`.
 The data commands require the Zenodo URLs to have been published in the manifest.
 

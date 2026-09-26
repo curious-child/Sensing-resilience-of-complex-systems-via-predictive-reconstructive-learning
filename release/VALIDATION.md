@@ -17,6 +17,9 @@ scientific computation changes were made for publication.
   compared against its source SHA-256. Relative paths and file bytes are preserved.
 - Downloader tests passed for checksum rejection, path traversal rejection,
   identical-file skipping and refusal to overwrite different existing files.
+- Following an SSL interruption during a large Zenodo upload, the two unchanged
+  data ZIPs are transferred as 25 ordered parts of at most 256 MiB. The downloader
+  verifies every part and the complete original ZIP before extraction.
 
 ## Dependencies and cache reproduction
 

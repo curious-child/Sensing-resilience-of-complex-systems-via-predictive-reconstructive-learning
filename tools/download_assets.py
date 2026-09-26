@@ -61,6 +61,39 @@ def restore(archive, package, root):
             finally:
                 temporary.unlink(missing_ok=True)
 
+def acquire(package, folder):
+    """Fetch one archive, reassembling verified transport parts when necessary."""
+    if Path(package['name']).name != package['name']:
+        raise ValueError('Unsafe archive filename')
+    archive=folder/package['name']
+    if archive.exists():
+        if archive.stat().st_size!=package['size'] or sha256(archive)!=package['sha256']:
+            raise ValueError(f'Existing archive differs from manifest: {archive}')
+        return archive
+    folder.mkdir(parents=True,exist_ok=True)
+    parts=[acquire(part,folder) for part in package.get('parts',[])]
+    if not parts and not package.get('url'):
+        raise ValueError(f"Download URL not yet published: {package['name']}")
+    fd,tmp=tempfile.mkstemp(prefix='.download-',dir=folder)
+    try:
+        with os.fdopen(fd,'wb') as out:
+            if parts:
+                for part in parts:
+                    with part.open('rb') as source:
+                        shutil.copyfileobj(source,out,8*1024*1024)
+            else:
+                req=urllib.request.Request(package['url'],headers={'User-Agent':'PRISM-reproduction/1.0'})
+                with urllib.request.urlopen(req,timeout=120) as response:
+                    shutil.copyfileobj(response,out,8*1024*1024)
+        if Path(tmp).stat().st_size!=package['size'] or sha256(tmp)!=package['sha256']:
+            raise ValueError(f"Downloaded/reassembled archive failed integrity check: {package['name']}")
+        # Atomic, exclusive publication on the same filesystem.
+        os.link(tmp,archive)
+    finally:
+        Path(tmp).unlink(missing_ok=True)
+    print(f"Downloaded and verified {package['name']}",flush=True)
+    return archive
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--category', choices=['all','models','data','caches'], default='all')
@@ -70,24 +103,12 @@ def main():
     parser.add_argument('--verify-only', action='store_true', help='Verify archive and restored files without writing')
     args = parser.parse_args()
     manifest = json.loads(args.manifest.read_text(encoding='utf-8'))
-    packages = [p for p in manifest['packages'] if args.category in ('all',p['category'])]
+    logical=[p for p in manifest['packages'] if p.get('format')!='archive-part']+manifest.get('archives',[])
+    packages = [p for p in logical if args.category in ('all',p['category'])]
     for package in packages:
         archive = args.archive_dir/package['name']
-        if not archive.exists():
-            if args.verify_only: raise FileNotFoundError(archive)
-            if not package.get('url'): raise ValueError(f"Download URL not yet published: {package['name']}")
-            args.archive_dir.mkdir(parents=True, exist_ok=True)
-            fd, tmp = tempfile.mkstemp(prefix='.download-', dir=args.archive_dir)
-            try:
-                request = urllib.request.Request(package['url'],headers={'User-Agent':'PRISM-reproduction/1.0'})
-                with os.fdopen(fd,'wb') as out, urllib.request.urlopen(request,timeout=120) as response:
-                    shutil.copyfileobj(response,out,8*1024*1024)
-                if Path(tmp).stat().st_size != package['size'] or sha256(tmp) != package['sha256']:
-                    raise ValueError('Downloaded archive failed integrity check')
-                if archive.exists(): raise FileExistsError(archive)
-                Path(tmp).rename(archive)
-            finally:
-                Path(tmp).unlink(missing_ok=True)
+        if not args.verify_only:
+            archive=acquire(package,args.archive_dir)
         if args.verify_only:
             if archive.stat().st_size != package['size'] or sha256(archive) != package['sha256']:
                 raise ValueError(f'Archive checksum mismatch: {archive}')

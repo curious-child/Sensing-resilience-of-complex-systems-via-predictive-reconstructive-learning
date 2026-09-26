@@ -4,478 +4,279 @@
   "zenodo_doi": "10.5281/zenodo.22969883",
   "packages": [
     {
-      "name": "prism-v1.0.0-data-neuronal.zip",
+      "name": "prism-v1.0.0-data-neuronal.zip.part001",
       "category": "data",
-      "size": 3541566796,
-      "sha256": "40dae19aecd56abac51edff326478ab41832a59d76ba7bd6043d982f00061d2a",
-      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip?download=1",
-      "files": [
-        {
-          "path": "dataset/Neuronal_supervised/test_dataset/As.pkl",
-          "size": 16998803,
-          "purpose": "simulation data or labels",
-          "sha256": "33bebedf889608f462596c5f3cc6840d7bc8e8805af7ea4cd418410ea5e72d1e",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/test_dataset/As.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/test_dataset/binary_basers.pkl",
-          "size": 736,
-          "purpose": "simulation data or labels",
-          "sha256": "12db8a9b233f57009a2427f34ad523fcdf55f922468bb89f8d08fcc69494d734",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/test_dataset/binary_basers.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/test_dataset/binary_rs.pkl",
-          "size": 736,
-          "purpose": "simulation data or labels",
-          "sha256": "d799949fb00a129f45f558a6e5f0f07116aeb6f7aa0e6f6d7d264d9cd5e82fc8",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/test_dataset/binary_rs.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/test_dataset/numes.pkl",
-          "size": 295606488,
-          "purpose": "simulation data or labels",
-          "sha256": "ae8b354a07554f84c7e7e85b76ccc4a807cc611ee64eb26e82455c631487b4bf",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/test_dataset/numes.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/test_dataset/three_class_basers.pkl",
-          "size": 736,
-          "purpose": "simulation data or labels",
-          "sha256": "74c06ad0e84e3db17f3d61dac8a423c0b0776e5d37ef4e22b61ecd43553f3342",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/test_dataset/three_class_basers.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/test_dataset/three_class_rs.pkl",
-          "size": 736,
-          "purpose": "simulation data or labels",
-          "sha256": "c238a1a8006a9652c8061c2dbd1e67c5967597764cfb84026996e7070bb648b4",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/test_dataset/three_class_rs.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/train_dataset/As.pkl",
-          "size": 152806403,
-          "purpose": "simulation data or labels",
-          "sha256": "efb4e96d8baf49a474d380fb856f82b077b2b075badebffb8d9f0c5006f8754b",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/train_dataset/As.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/train_dataset/binary_basers.pkl",
-          "size": 5768,
-          "purpose": "simulation data or labels",
-          "sha256": "9db413662e322720915b58794128916b3fcb9af2d514e0b5faa4d9af2fbec03b",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/train_dataset/binary_basers.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/train_dataset/binary_rs.pkl",
-          "size": 5768,
-          "purpose": "simulation data or labels",
-          "sha256": "8e874d7fff3cacfcb495c7a0859ddd2ad39bc067bd86b2cec9f6f5e379a5518c",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/train_dataset/binary_rs.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/train_dataset/numes.pkl",
-          "size": 2524850812,
-          "purpose": "simulation data or labels",
-          "sha256": "98e5b62a2b578dae6abc058030aa6f02b077ec253032f652d1e40496b063978e",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/train_dataset/numes.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/train_dataset/three_class_basers.pkl",
-          "size": 5768,
-          "purpose": "simulation data or labels",
-          "sha256": "a28053d62ffd09bebcd6350adacd7cf1afd8f0e6fb695dd78de9cb6115d7b5fe",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/train_dataset/three_class_basers.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/train_dataset/three_class_rs.pkl",
-          "size": 5768,
-          "purpose": "simulation data or labels",
-          "sha256": "2ea74d076b21fc4a371216c0e7488cd082080dfe1fafc0b08b65a1a73408fa5b",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/train_dataset/three_class_rs.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/val_dataset/As.pkl",
-          "size": 19521770,
-          "purpose": "simulation data or labels",
-          "sha256": "62d0f736b2e4ae7097ff031ed8f2cfa506a7bb0339004442826e073ce9262824",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/val_dataset/As.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/val_dataset/binary_basers.pkl",
-          "size": 734,
-          "purpose": "simulation data or labels",
-          "sha256": "48b417798514fa68116510b0d11f2bd4517364ddc7fa979d0146032e6b3d9acb",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/val_dataset/binary_basers.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/val_dataset/binary_rs.pkl",
-          "size": 734,
-          "purpose": "simulation data or labels",
-          "sha256": "e634eddd5093f7a3054f421b3f37bf608e85d9b264ef9f2013d3a60d5780be6c",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/val_dataset/binary_rs.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/val_dataset/numes.pkl",
-          "size": 316252808,
-          "purpose": "simulation data or labels",
-          "sha256": "ef05cd6b5a13a5e3958bdacdac2dd78f70ed11c590f16f04fb727e3daf14804d",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/val_dataset/numes.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/val_dataset/three_class_basers.pkl",
-          "size": 734,
-          "purpose": "simulation data or labels",
-          "sha256": "f10b1902779d3a00fb0b98f2769aa827dfb6ddf2ed6f8a43e6750fa81bac851a",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/val_dataset/three_class_basers.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_supervised/val_dataset/three_class_rs.pkl",
-          "size": 734,
-          "purpose": "simulation data or labels",
-          "sha256": "264da718c08c40c1e70f5b2b42495f75fc9f195130e56597d47dd40402be7f96",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_supervised/val_dataset/three_class_rs.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/As_ER_degree.pkl",
-          "size": 169402482,
-          "purpose": "simulation data or labels",
-          "sha256": "8b8a4f363c556893abcf6f88a62ed0a5ea148df332fd7c0eb3a1485e1e2c803b",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/As_ER_degree.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/As_ER_random.pkl",
-          "size": 185111375,
-          "purpose": "simulation data or labels",
-          "sha256": "37b05a412c6ad13e0f15f008a437510d4c814d2b253ce9b42ea90a3e3029a984",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/As_ER_random.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/As_SF_degree.pkl",
-          "size": 1160044938,
-          "purpose": "simulation data or labels",
-          "sha256": "73f79977e8fe3a90ddf2b0dd6d06c8b228ded9271b9a34779474905e955589e0",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/As_SF_degree.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/As_SF_random.pkl",
-          "size": 185111375,
-          "purpose": "simulation data or labels",
-          "sha256": "69c1d8388a25b35a2865cfa6c87e2e3e2d35118692f542d6fe08fb66f107fc81",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/As_SF_random.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/numes_ER_degree.pkl",
-          "size": 162914274,
-          "purpose": "simulation data or labels",
-          "sha256": "c86a932e85100acffd45281d11127ee53d25628bff521cb37e4c9ec9ebb7ff3d",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/numes_ER_degree.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/numes_ER_random.pkl",
-          "size": 218402896,
-          "purpose": "simulation data or labels",
-          "sha256": "a27fad2c7e10798ccff76083e04d5e6830b52eaa6d6ed359ae7540a3cd9beb66",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/numes_ER_random.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/numes_SF_degree.pkl",
-          "size": 950347780,
-          "purpose": "simulation data or labels",
-          "sha256": "525849dbfbaa154c7e3f7d2ca6ec170b81da8b0b79b557bd44c441dac1379c13",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/numes_SF_degree.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/numes_SF_random.pkl",
-          "size": 218402896,
-          "purpose": "simulation data or labels",
-          "sha256": "321903fa200f9715640a5232e13725dd27a27e24e7fd1c6115ffe872dfba6f35",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/numes_SF_random.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/xlast_ER_degree.pkl",
-          "size": 8153544,
-          "purpose": "simulation data or labels",
-          "sha256": "c5baa18cb53ed23cd39d0e9a702ca7a8f2770a6ef0c981ff3aa491ec21872061",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/xlast_ER_degree.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/xlast_ER_random.pkl",
-          "size": 10939247,
-          "purpose": "simulation data or labels",
-          "sha256": "ae5866f5e9242465ff4b875c4925ee1c9c0429d973ad7095dc0b5b1060c46232",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/xlast_ER_random.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/xlast_SF_degree.pkl",
-          "size": 47554330,
-          "purpose": "simulation data or labels",
-          "sha256": "ebdf4909ca6de978f5655052dd96b3507e24c2766c35a28e73eaedc9a8e769af",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/xlast_SF_degree.pkl"
-        },
-        {
-          "path": "dataset/Neuronal_test/xlast_SF_random.pkl",
-          "size": 10939247,
-          "purpose": "simulation data or labels",
-          "sha256": "523aaa4057f779031d22eaed506015121286110db01b810d5587de7083f022aa",
-          "group": "data-neuronal",
-          "restore_path": "dataset/Neuronal_test/xlast_SF_random.pkl"
-        }
-      ]
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 1,
+      "size": 268435456,
+      "sha256": "1aadcc49c56cbee73e0b9f4c002bd7dd445f7e7cfc223f380240b702add1cf5f",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part001?download=1",
+      "files": []
     },
     {
-      "name": "prism-v1.0.0-data-sis.zip",
+      "name": "prism-v1.0.0-data-neuronal.zip.part002",
       "category": "data",
-      "size": 2701977016,
-      "sha256": "6eb1fa1b496c6cdb1a147fb19e5b54cc050e55c8445ca939606f71094c5f9288",
-      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip?download=1",
-      "files": [
-        {
-          "path": "dataset/SIS_supervised/test_dataset/As.pkl",
-          "size": 98983033,
-          "purpose": "simulation data or labels",
-          "sha256": "2569fe337dd8f0e1f0b9ad642efe2932a413a82ca505578b985c706b67da42cb",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/test_dataset/As.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/test_dataset/basers.pkl",
-          "size": 896,
-          "purpose": "simulation data or labels",
-          "sha256": "e9043bda72fb68877ce3405c71c4b9175404a6c859ec464136747a345d914406",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/test_dataset/basers.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/test_dataset/numes.pkl",
-          "size": 246898651,
-          "purpose": "simulation data or labels",
-          "sha256": "044393cf6f5ccb5ffc0140191524dde40f8d04996790b4f6a5592eaca49887f0",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/test_dataset/numes.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/test_dataset/rs.pkl",
-          "size": 896,
-          "purpose": "simulation data or labels",
-          "sha256": "5729eaac341ce429225e32810f2f3fa28d778be5a6e9b5b5f450151ad84d519f",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/test_dataset/rs.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/test_dataset/x_last.pkl",
-          "size": 12375356,
-          "purpose": "simulation data or labels",
-          "sha256": "42b28dd909a876910a61fe6f52cc32a09c4941e25ca125a219f8ba5e8e10a814",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/test_dataset/x_last.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/train_dataset/As.pkl",
-          "size": 186610060,
-          "purpose": "simulation data or labels",
-          "sha256": "81c7b54704b1a0bd31fb5626bd68a42c8bae3854be97ad19d6e98d6c86a648ee",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/train_dataset/As.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/train_dataset/basers.pkl",
-          "size": 7040,
-          "purpose": "simulation data or labels",
-          "sha256": "c86864beedaae7a9d2d71e06343a83f02d6ae7d5b9339ad8d1e8fd131f71b026",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/train_dataset/basers.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/train_dataset/numes.pkl",
-          "size": 807877111,
-          "purpose": "simulation data or labels",
-          "sha256": "ae0a9ec009fbcdb07953037508224c2f566fc50a09c8f8c3eb98dfa6f0c6b536",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/train_dataset/numes.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/train_dataset/rs.pkl",
-          "size": 7040,
-          "purpose": "simulation data or labels",
-          "sha256": "697dca714cad6e0bdb4ed892f89072d35cad73190004ad7816cbc66fab33bbe1",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/train_dataset/rs.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/train_dataset/x_last.pkl",
-          "size": 40627289,
-          "purpose": "simulation data or labels",
-          "sha256": "a95dae87b36192cb76d9137dc393ff1d12eadd0691817dcf3c8a60bbadb69f95",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/train_dataset/x_last.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/val_dataset/As.pkl",
-          "size": 25663548,
-          "purpose": "simulation data or labels",
-          "sha256": "8d55625f5a7b6d2e05c4de943f1cde1d94b8835bff66c39c8ce0df9c3888af6d",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/val_dataset/As.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/val_dataset/basers.pkl",
-          "size": 892,
-          "purpose": "simulation data or labels",
-          "sha256": "b1fc09035307e6ae1e63f93a7abe1655d9121d63f630d75217642a065b2785b6",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/val_dataset/basers.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/val_dataset/numes.pkl",
-          "size": 96300404,
-          "purpose": "simulation data or labels",
-          "sha256": "fc5e5dffe3641c9f92395d8ca7c9c7eb38e65199af9dc804408907cc0e58875e",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/val_dataset/numes.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/val_dataset/rs.pkl",
-          "size": 892,
-          "purpose": "simulation data or labels",
-          "sha256": "b414d819724130395aa62d9cd30aebb0a4438f36910fc2853e06c04330716225",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/val_dataset/rs.pkl"
-        },
-        {
-          "path": "dataset/SIS_supervised/val_dataset/x_last.pkl",
-          "size": 4844233,
-          "purpose": "simulation data or labels",
-          "sha256": "c808352b405ece1585e21f563d57c63bfa1d70c815686297cbd6e7f37236fa6b",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_supervised/val_dataset/x_last.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/As_ER_degree.pkl",
-          "size": 169402482,
-          "purpose": "simulation data or labels",
-          "sha256": "8b8a4f363c556893abcf6f88a62ed0a5ea148df332fd7c0eb3a1485e1e2c803b",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/As_ER_degree.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/As_ER_random.pkl",
-          "size": 185111375,
-          "purpose": "simulation data or labels",
-          "sha256": "37b05a412c6ad13e0f15f008a437510d4c814d2b253ce9b42ea90a3e3029a984",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/As_ER_random.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/As_SF_degree.pkl",
-          "size": 1160044938,
-          "purpose": "simulation data or labels",
-          "sha256": "73f79977e8fe3a90ddf2b0dd6d06c8b228ded9271b9a34779474905e955589e0",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/As_SF_degree.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/As_SF_random.pkl",
-          "size": 185111375,
-          "purpose": "simulation data or labels",
-          "sha256": "69c1d8388a25b35a2865cfa6c87e2e3e2d35118692f542d6fe08fb66f107fc81",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/As_SF_random.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/numes_ER_degree.pkl",
-          "size": 162914274,
-          "purpose": "simulation data or labels",
-          "sha256": "264eda4f31b076cacbb8bf24d7d696365e2e2aea40b6063a55f6669e9fb2dacf",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/numes_ER_degree.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/numes_ER_random.pkl",
-          "size": 218402896,
-          "purpose": "simulation data or labels",
-          "sha256": "a388d9a8e1f1b2937534675191463f44c8e927b630626193d5120e75c48734fa",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/numes_ER_random.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/numes_SF_degree.pkl",
-          "size": 950347780,
-          "purpose": "simulation data or labels",
-          "sha256": "b1a9673b2f0ce2b0175c8ec7fcadffbeba484a2fb44b29749c9862769cafa751",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/numes_SF_degree.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/numes_SF_random.pkl",
-          "size": 218402896,
-          "purpose": "simulation data or labels",
-          "sha256": "a89e7de1e4377298f2144b3e05834a4c5dd85f1768181b653a34f008bbdb62c6",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/numes_SF_random.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/xlast_ER_degree.pkl",
-          "size": 8153544,
-          "purpose": "simulation data or labels",
-          "sha256": "ba07a7ff1e896f8e940118b49f0ca06fad4b4eeb7946a949619b6e399090a59b",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/xlast_ER_degree.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/xlast_ER_random.pkl",
-          "size": 10939247,
-          "purpose": "simulation data or labels",
-          "sha256": "9fc44448c4a6c301305a5703ddc4d2378c81952eeff2ef188ebebd35fead4655",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/xlast_ER_random.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/xlast_SF_degree.pkl",
-          "size": 47554330,
-          "purpose": "simulation data or labels",
-          "sha256": "be20d1853e6fd360ead26ac901fd431e971589d1ccda522c1e198b1acaf5f50b",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/xlast_SF_degree.pkl"
-        },
-        {
-          "path": "dataset/SIS_test/xlast_SF_random.pkl",
-          "size": 10939247,
-          "purpose": "simulation data or labels",
-          "sha256": "8bc3ad9880092ede42d2559e60a715417d84e7381b878f1f5dc4413bc4eae3a1",
-          "group": "data-sis",
-          "restore_path": "dataset/SIS_test/xlast_SF_random.pkl"
-        }
-      ]
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 2,
+      "size": 268435456,
+      "sha256": "0f7c3d1e78e73ca080842255882c93bcb6a195b7a8d815b8b2a7c560cd326fd2",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part002?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part003",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 3,
+      "size": 268435456,
+      "sha256": "a535a4f9d453cb181c6a5ac8fdadf5dad900b60fee0932f2273621735380bd9b",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part003?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part004",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 4,
+      "size": 268435456,
+      "sha256": "27766cc7288cc94fab5ec391f08d182328443d154ea721bf89718e91c85379c7",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part004?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part005",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 5,
+      "size": 268435456,
+      "sha256": "e78422fa38d1c8ccc1569f1a0a392952eb2f53c1679c01d2b1b544d3c93c4dab",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part005?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part006",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 6,
+      "size": 268435456,
+      "sha256": "9badc8b9610bf33db47666e3e0359c1749dd335aa75787b6d5df24fa69fad68e",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part006?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part007",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 7,
+      "size": 268435456,
+      "sha256": "97af1ae982f69b46f7c7ab37956acfc853c71e79481794588179fd87570c6844",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part007?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part008",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 8,
+      "size": 268435456,
+      "sha256": "e3568df26040fc0f39b9a1ec7abd67d1aa0bda24979b87a6afd599fd2fa366a5",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part008?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part009",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 9,
+      "size": 268435456,
+      "sha256": "e75191f6c22478bff1bf85cbbfcc475806d673b04f298f75b654d9386cf5045d",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part009?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part010",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 10,
+      "size": 268435456,
+      "sha256": "a08ee428306dc43862ed5c01693943810ace1123e7d9c01e68224929a780a7a8",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part010?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part011",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 11,
+      "size": 268435456,
+      "sha256": "395c61814a6c558420a1d8e0dfbca67dd4eb11f8682e7d5266ac74f156fb3b28",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part011?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part012",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 12,
+      "size": 268435456,
+      "sha256": "ec2f6604e7ecd5d77ba3a09f59a5e00e4fcf30046f350324e16fd7e6a70b64e4",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part012?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part013",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 13,
+      "size": 268435456,
+      "sha256": "236b7bd13cfec0ce0c1e0c6c6eacee9e07d329fab77bacb60be1a3c62e5b2e3d",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part013?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip.part014",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-neuronal.zip",
+      "part_index": 14,
+      "size": 51905868,
+      "sha256": "2b20e9a0eaab12abbe4240284f526c5235a1a4c781843ab38f7cc966b2612c33",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part014?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip.part001",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-sis.zip",
+      "part_index": 1,
+      "size": 268435456,
+      "sha256": "a7463ebd97a8dd6195d034b588c6ac13978944686d35146bd92bcf132626ef35",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part001?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip.part002",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-sis.zip",
+      "part_index": 2,
+      "size": 268435456,
+      "sha256": "d72c5a3f4e0803b455da0d63243cf33f52d4fba0681718dc8df2be77493e2e7d",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part002?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip.part003",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-sis.zip",
+      "part_index": 3,
+      "size": 268435456,
+      "sha256": "324be5d6abf4e00f5edcd9ab6e96d2da7ff35857d4acdfec991604f2a8c0d4b4",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part003?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip.part004",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-sis.zip",
+      "part_index": 4,
+      "size": 268435456,
+      "sha256": "14b1913cc96fd31a52f5abf7423d8ad51ba378970d5fe8e2a69df7407c0302ca",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part004?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip.part005",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-sis.zip",
+      "part_index": 5,
+      "size": 268435456,
+      "sha256": "f32b5bddbf1569919335acb6e42c3a956543d23362c81ab9b4351c76303c3fd5",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part005?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip.part006",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-sis.zip",
+      "part_index": 6,
+      "size": 268435456,
+      "sha256": "64f9b39d7272ff46c318df44231bd4971d5b11f6e260527bc64e4e6e1be8afef",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part006?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip.part007",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-sis.zip",
+      "part_index": 7,
+      "size": 268435456,
+      "sha256": "eda14ef48b55409a52aa968a291dbae030cdfd101893aa850c3ab778c7de0e9b",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part007?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip.part008",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-sis.zip",
+      "part_index": 8,
+      "size": 268435456,
+      "sha256": "acd020e7bf56d6650dba80ac4c96179f21630012275a6920392770bd33898c06",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part008?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip.part009",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-sis.zip",
+      "part_index": 9,
+      "size": 268435456,
+      "sha256": "e25f8d74f122b305348927904613e5109016cabebfec7162bcbd256181dacb85",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part009?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip.part010",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-sis.zip",
+      "part_index": 10,
+      "size": 268435456,
+      "sha256": "c20f9556a4ba81ed6b52043b2394f28ff075aef9eaf0f1379c7afe5bac6a789f",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part010?download=1",
+      "files": []
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip.part011",
+      "category": "data",
+      "format": "archive-part",
+      "archive": "prism-v1.0.0-data-sis.zip",
+      "part_index": 11,
+      "size": 17622456,
+      "sha256": "b223f09eb18c1b4e263834146e7ec5c5404fa2f6921c664329f16a5574ac2725",
+      "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part011?download=1",
+      "files": []
     },
     {
       "name": "prism-v1.0.0-caches.zip",
@@ -5449,5 +5250,636 @@
         }
       ]
     }
-  ]
+  ],
+  "archives": [
+    {
+      "name": "prism-v1.0.0-data-neuronal.zip",
+      "category": "data",
+      "size": 3541566796,
+      "sha256": "40dae19aecd56abac51edff326478ab41832a59d76ba7bd6043d982f00061d2a",
+      "url": null,
+      "files": [
+        {
+          "path": "dataset/Neuronal_supervised/test_dataset/As.pkl",
+          "size": 16998803,
+          "purpose": "simulation data or labels",
+          "sha256": "33bebedf889608f462596c5f3cc6840d7bc8e8805af7ea4cd418410ea5e72d1e",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/test_dataset/As.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/test_dataset/binary_basers.pkl",
+          "size": 736,
+          "purpose": "simulation data or labels",
+          "sha256": "12db8a9b233f57009a2427f34ad523fcdf55f922468bb89f8d08fcc69494d734",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/test_dataset/binary_basers.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/test_dataset/binary_rs.pkl",
+          "size": 736,
+          "purpose": "simulation data or labels",
+          "sha256": "d799949fb00a129f45f558a6e5f0f07116aeb6f7aa0e6f6d7d264d9cd5e82fc8",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/test_dataset/binary_rs.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/test_dataset/numes.pkl",
+          "size": 295606488,
+          "purpose": "simulation data or labels",
+          "sha256": "ae8b354a07554f84c7e7e85b76ccc4a807cc611ee64eb26e82455c631487b4bf",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/test_dataset/numes.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/test_dataset/three_class_basers.pkl",
+          "size": 736,
+          "purpose": "simulation data or labels",
+          "sha256": "74c06ad0e84e3db17f3d61dac8a423c0b0776e5d37ef4e22b61ecd43553f3342",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/test_dataset/three_class_basers.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/test_dataset/three_class_rs.pkl",
+          "size": 736,
+          "purpose": "simulation data or labels",
+          "sha256": "c238a1a8006a9652c8061c2dbd1e67c5967597764cfb84026996e7070bb648b4",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/test_dataset/three_class_rs.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/train_dataset/As.pkl",
+          "size": 152806403,
+          "purpose": "simulation data or labels",
+          "sha256": "efb4e96d8baf49a474d380fb856f82b077b2b075badebffb8d9f0c5006f8754b",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/train_dataset/As.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/train_dataset/binary_basers.pkl",
+          "size": 5768,
+          "purpose": "simulation data or labels",
+          "sha256": "9db413662e322720915b58794128916b3fcb9af2d514e0b5faa4d9af2fbec03b",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/train_dataset/binary_basers.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/train_dataset/binary_rs.pkl",
+          "size": 5768,
+          "purpose": "simulation data or labels",
+          "sha256": "8e874d7fff3cacfcb495c7a0859ddd2ad39bc067bd86b2cec9f6f5e379a5518c",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/train_dataset/binary_rs.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/train_dataset/numes.pkl",
+          "size": 2524850812,
+          "purpose": "simulation data or labels",
+          "sha256": "98e5b62a2b578dae6abc058030aa6f02b077ec253032f652d1e40496b063978e",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/train_dataset/numes.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/train_dataset/three_class_basers.pkl",
+          "size": 5768,
+          "purpose": "simulation data or labels",
+          "sha256": "a28053d62ffd09bebcd6350adacd7cf1afd8f0e6fb695dd78de9cb6115d7b5fe",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/train_dataset/three_class_basers.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/train_dataset/three_class_rs.pkl",
+          "size": 5768,
+          "purpose": "simulation data or labels",
+          "sha256": "2ea74d076b21fc4a371216c0e7488cd082080dfe1fafc0b08b65a1a73408fa5b",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/train_dataset/three_class_rs.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/val_dataset/As.pkl",
+          "size": 19521770,
+          "purpose": "simulation data or labels",
+          "sha256": "62d0f736b2e4ae7097ff031ed8f2cfa506a7bb0339004442826e073ce9262824",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/val_dataset/As.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/val_dataset/binary_basers.pkl",
+          "size": 734,
+          "purpose": "simulation data or labels",
+          "sha256": "48b417798514fa68116510b0d11f2bd4517364ddc7fa979d0146032e6b3d9acb",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/val_dataset/binary_basers.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/val_dataset/binary_rs.pkl",
+          "size": 734,
+          "purpose": "simulation data or labels",
+          "sha256": "e634eddd5093f7a3054f421b3f37bf608e85d9b264ef9f2013d3a60d5780be6c",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/val_dataset/binary_rs.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/val_dataset/numes.pkl",
+          "size": 316252808,
+          "purpose": "simulation data or labels",
+          "sha256": "ef05cd6b5a13a5e3958bdacdac2dd78f70ed11c590f16f04fb727e3daf14804d",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/val_dataset/numes.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/val_dataset/three_class_basers.pkl",
+          "size": 734,
+          "purpose": "simulation data or labels",
+          "sha256": "f10b1902779d3a00fb0b98f2769aa827dfb6ddf2ed6f8a43e6750fa81bac851a",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/val_dataset/three_class_basers.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_supervised/val_dataset/three_class_rs.pkl",
+          "size": 734,
+          "purpose": "simulation data or labels",
+          "sha256": "264da718c08c40c1e70f5b2b42495f75fc9f195130e56597d47dd40402be7f96",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_supervised/val_dataset/three_class_rs.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/As_ER_degree.pkl",
+          "size": 169402482,
+          "purpose": "simulation data or labels",
+          "sha256": "8b8a4f363c556893abcf6f88a62ed0a5ea148df332fd7c0eb3a1485e1e2c803b",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/As_ER_degree.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/As_ER_random.pkl",
+          "size": 185111375,
+          "purpose": "simulation data or labels",
+          "sha256": "37b05a412c6ad13e0f15f008a437510d4c814d2b253ce9b42ea90a3e3029a984",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/As_ER_random.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/As_SF_degree.pkl",
+          "size": 1160044938,
+          "purpose": "simulation data or labels",
+          "sha256": "73f79977e8fe3a90ddf2b0dd6d06c8b228ded9271b9a34779474905e955589e0",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/As_SF_degree.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/As_SF_random.pkl",
+          "size": 185111375,
+          "purpose": "simulation data or labels",
+          "sha256": "69c1d8388a25b35a2865cfa6c87e2e3e2d35118692f542d6fe08fb66f107fc81",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/As_SF_random.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/numes_ER_degree.pkl",
+          "size": 162914274,
+          "purpose": "simulation data or labels",
+          "sha256": "c86a932e85100acffd45281d11127ee53d25628bff521cb37e4c9ec9ebb7ff3d",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/numes_ER_degree.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/numes_ER_random.pkl",
+          "size": 218402896,
+          "purpose": "simulation data or labels",
+          "sha256": "a27fad2c7e10798ccff76083e04d5e6830b52eaa6d6ed359ae7540a3cd9beb66",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/numes_ER_random.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/numes_SF_degree.pkl",
+          "size": 950347780,
+          "purpose": "simulation data or labels",
+          "sha256": "525849dbfbaa154c7e3f7d2ca6ec170b81da8b0b79b557bd44c441dac1379c13",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/numes_SF_degree.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/numes_SF_random.pkl",
+          "size": 218402896,
+          "purpose": "simulation data or labels",
+          "sha256": "321903fa200f9715640a5232e13725dd27a27e24e7fd1c6115ffe872dfba6f35",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/numes_SF_random.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/xlast_ER_degree.pkl",
+          "size": 8153544,
+          "purpose": "simulation data or labels",
+          "sha256": "c5baa18cb53ed23cd39d0e9a702ca7a8f2770a6ef0c981ff3aa491ec21872061",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/xlast_ER_degree.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/xlast_ER_random.pkl",
+          "size": 10939247,
+          "purpose": "simulation data or labels",
+          "sha256": "ae5866f5e9242465ff4b875c4925ee1c9c0429d973ad7095dc0b5b1060c46232",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/xlast_ER_random.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/xlast_SF_degree.pkl",
+          "size": 47554330,
+          "purpose": "simulation data or labels",
+          "sha256": "ebdf4909ca6de978f5655052dd96b3507e24c2766c35a28e73eaedc9a8e769af",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/xlast_SF_degree.pkl"
+        },
+        {
+          "path": "dataset/Neuronal_test/xlast_SF_random.pkl",
+          "size": 10939247,
+          "purpose": "simulation data or labels",
+          "sha256": "523aaa4057f779031d22eaed506015121286110db01b810d5587de7083f022aa",
+          "group": "data-neuronal",
+          "restore_path": "dataset/Neuronal_test/xlast_SF_random.pkl"
+        }
+      ],
+      "parts": [
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part001",
+          "size": 268435456,
+          "sha256": "1aadcc49c56cbee73e0b9f4c002bd7dd445f7e7cfc223f380240b702add1cf5f",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part001?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part002",
+          "size": 268435456,
+          "sha256": "0f7c3d1e78e73ca080842255882c93bcb6a195b7a8d815b8b2a7c560cd326fd2",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part002?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part003",
+          "size": 268435456,
+          "sha256": "a535a4f9d453cb181c6a5ac8fdadf5dad900b60fee0932f2273621735380bd9b",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part003?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part004",
+          "size": 268435456,
+          "sha256": "27766cc7288cc94fab5ec391f08d182328443d154ea721bf89718e91c85379c7",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part004?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part005",
+          "size": 268435456,
+          "sha256": "e78422fa38d1c8ccc1569f1a0a392952eb2f53c1679c01d2b1b544d3c93c4dab",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part005?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part006",
+          "size": 268435456,
+          "sha256": "9badc8b9610bf33db47666e3e0359c1749dd335aa75787b6d5df24fa69fad68e",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part006?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part007",
+          "size": 268435456,
+          "sha256": "97af1ae982f69b46f7c7ab37956acfc853c71e79481794588179fd87570c6844",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part007?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part008",
+          "size": 268435456,
+          "sha256": "e3568df26040fc0f39b9a1ec7abd67d1aa0bda24979b87a6afd599fd2fa366a5",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part008?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part009",
+          "size": 268435456,
+          "sha256": "e75191f6c22478bff1bf85cbbfcc475806d673b04f298f75b654d9386cf5045d",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part009?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part010",
+          "size": 268435456,
+          "sha256": "a08ee428306dc43862ed5c01693943810ace1123e7d9c01e68224929a780a7a8",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part010?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part011",
+          "size": 268435456,
+          "sha256": "395c61814a6c558420a1d8e0dfbca67dd4eb11f8682e7d5266ac74f156fb3b28",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part011?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part012",
+          "size": 268435456,
+          "sha256": "ec2f6604e7ecd5d77ba3a09f59a5e00e4fcf30046f350324e16fd7e6a70b64e4",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part012?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part013",
+          "size": 268435456,
+          "sha256": "236b7bd13cfec0ce0c1e0c6c6eacee9e07d329fab77bacb60be1a3c62e5b2e3d",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part013?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-neuronal.zip.part014",
+          "size": 51905868,
+          "sha256": "2b20e9a0eaab12abbe4240284f526c5235a1a4c781843ab38f7cc966b2612c33",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-neuronal.zip.part014?download=1"
+        }
+      ]
+    },
+    {
+      "name": "prism-v1.0.0-data-sis.zip",
+      "category": "data",
+      "size": 2701977016,
+      "sha256": "6eb1fa1b496c6cdb1a147fb19e5b54cc050e55c8445ca939606f71094c5f9288",
+      "url": null,
+      "files": [
+        {
+          "path": "dataset/SIS_supervised/test_dataset/As.pkl",
+          "size": 98983033,
+          "purpose": "simulation data or labels",
+          "sha256": "2569fe337dd8f0e1f0b9ad642efe2932a413a82ca505578b985c706b67da42cb",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/test_dataset/As.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/test_dataset/basers.pkl",
+          "size": 896,
+          "purpose": "simulation data or labels",
+          "sha256": "e9043bda72fb68877ce3405c71c4b9175404a6c859ec464136747a345d914406",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/test_dataset/basers.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/test_dataset/numes.pkl",
+          "size": 246898651,
+          "purpose": "simulation data or labels",
+          "sha256": "044393cf6f5ccb5ffc0140191524dde40f8d04996790b4f6a5592eaca49887f0",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/test_dataset/numes.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/test_dataset/rs.pkl",
+          "size": 896,
+          "purpose": "simulation data or labels",
+          "sha256": "5729eaac341ce429225e32810f2f3fa28d778be5a6e9b5b5f450151ad84d519f",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/test_dataset/rs.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/test_dataset/x_last.pkl",
+          "size": 12375356,
+          "purpose": "simulation data or labels",
+          "sha256": "42b28dd909a876910a61fe6f52cc32a09c4941e25ca125a219f8ba5e8e10a814",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/test_dataset/x_last.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/train_dataset/As.pkl",
+          "size": 186610060,
+          "purpose": "simulation data or labels",
+          "sha256": "81c7b54704b1a0bd31fb5626bd68a42c8bae3854be97ad19d6e98d6c86a648ee",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/train_dataset/As.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/train_dataset/basers.pkl",
+          "size": 7040,
+          "purpose": "simulation data or labels",
+          "sha256": "c86864beedaae7a9d2d71e06343a83f02d6ae7d5b9339ad8d1e8fd131f71b026",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/train_dataset/basers.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/train_dataset/numes.pkl",
+          "size": 807877111,
+          "purpose": "simulation data or labels",
+          "sha256": "ae0a9ec009fbcdb07953037508224c2f566fc50a09c8f8c3eb98dfa6f0c6b536",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/train_dataset/numes.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/train_dataset/rs.pkl",
+          "size": 7040,
+          "purpose": "simulation data or labels",
+          "sha256": "697dca714cad6e0bdb4ed892f89072d35cad73190004ad7816cbc66fab33bbe1",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/train_dataset/rs.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/train_dataset/x_last.pkl",
+          "size": 40627289,
+          "purpose": "simulation data or labels",
+          "sha256": "a95dae87b36192cb76d9137dc393ff1d12eadd0691817dcf3c8a60bbadb69f95",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/train_dataset/x_last.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/val_dataset/As.pkl",
+          "size": 25663548,
+          "purpose": "simulation data or labels",
+          "sha256": "8d55625f5a7b6d2e05c4de943f1cde1d94b8835bff66c39c8ce0df9c3888af6d",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/val_dataset/As.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/val_dataset/basers.pkl",
+          "size": 892,
+          "purpose": "simulation data or labels",
+          "sha256": "b1fc09035307e6ae1e63f93a7abe1655d9121d63f630d75217642a065b2785b6",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/val_dataset/basers.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/val_dataset/numes.pkl",
+          "size": 96300404,
+          "purpose": "simulation data or labels",
+          "sha256": "fc5e5dffe3641c9f92395d8ca7c9c7eb38e65199af9dc804408907cc0e58875e",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/val_dataset/numes.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/val_dataset/rs.pkl",
+          "size": 892,
+          "purpose": "simulation data or labels",
+          "sha256": "b414d819724130395aa62d9cd30aebb0a4438f36910fc2853e06c04330716225",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/val_dataset/rs.pkl"
+        },
+        {
+          "path": "dataset/SIS_supervised/val_dataset/x_last.pkl",
+          "size": 4844233,
+          "purpose": "simulation data or labels",
+          "sha256": "c808352b405ece1585e21f563d57c63bfa1d70c815686297cbd6e7f37236fa6b",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_supervised/val_dataset/x_last.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/As_ER_degree.pkl",
+          "size": 169402482,
+          "purpose": "simulation data or labels",
+          "sha256": "8b8a4f363c556893abcf6f88a62ed0a5ea148df332fd7c0eb3a1485e1e2c803b",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/As_ER_degree.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/As_ER_random.pkl",
+          "size": 185111375,
+          "purpose": "simulation data or labels",
+          "sha256": "37b05a412c6ad13e0f15f008a437510d4c814d2b253ce9b42ea90a3e3029a984",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/As_ER_random.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/As_SF_degree.pkl",
+          "size": 1160044938,
+          "purpose": "simulation data or labels",
+          "sha256": "73f79977e8fe3a90ddf2b0dd6d06c8b228ded9271b9a34779474905e955589e0",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/As_SF_degree.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/As_SF_random.pkl",
+          "size": 185111375,
+          "purpose": "simulation data or labels",
+          "sha256": "69c1d8388a25b35a2865cfa6c87e2e3e2d35118692f542d6fe08fb66f107fc81",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/As_SF_random.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/numes_ER_degree.pkl",
+          "size": 162914274,
+          "purpose": "simulation data or labels",
+          "sha256": "264eda4f31b076cacbb8bf24d7d696365e2e2aea40b6063a55f6669e9fb2dacf",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/numes_ER_degree.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/numes_ER_random.pkl",
+          "size": 218402896,
+          "purpose": "simulation data or labels",
+          "sha256": "a388d9a8e1f1b2937534675191463f44c8e927b630626193d5120e75c48734fa",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/numes_ER_random.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/numes_SF_degree.pkl",
+          "size": 950347780,
+          "purpose": "simulation data or labels",
+          "sha256": "b1a9673b2f0ce2b0175c8ec7fcadffbeba484a2fb44b29749c9862769cafa751",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/numes_SF_degree.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/numes_SF_random.pkl",
+          "size": 218402896,
+          "purpose": "simulation data or labels",
+          "sha256": "a89e7de1e4377298f2144b3e05834a4c5dd85f1768181b653a34f008bbdb62c6",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/numes_SF_random.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/xlast_ER_degree.pkl",
+          "size": 8153544,
+          "purpose": "simulation data or labels",
+          "sha256": "ba07a7ff1e896f8e940118b49f0ca06fad4b4eeb7946a949619b6e399090a59b",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/xlast_ER_degree.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/xlast_ER_random.pkl",
+          "size": 10939247,
+          "purpose": "simulation data or labels",
+          "sha256": "9fc44448c4a6c301305a5703ddc4d2378c81952eeff2ef188ebebd35fead4655",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/xlast_ER_random.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/xlast_SF_degree.pkl",
+          "size": 47554330,
+          "purpose": "simulation data or labels",
+          "sha256": "be20d1853e6fd360ead26ac901fd431e971589d1ccda522c1e198b1acaf5f50b",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/xlast_SF_degree.pkl"
+        },
+        {
+          "path": "dataset/SIS_test/xlast_SF_random.pkl",
+          "size": 10939247,
+          "purpose": "simulation data or labels",
+          "sha256": "8bc3ad9880092ede42d2559e60a715417d84e7381b878f1f5dc4413bc4eae3a1",
+          "group": "data-sis",
+          "restore_path": "dataset/SIS_test/xlast_SF_random.pkl"
+        }
+      ],
+      "parts": [
+        {
+          "name": "prism-v1.0.0-data-sis.zip.part001",
+          "size": 268435456,
+          "sha256": "a7463ebd97a8dd6195d034b588c6ac13978944686d35146bd92bcf132626ef35",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part001?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-sis.zip.part002",
+          "size": 268435456,
+          "sha256": "d72c5a3f4e0803b455da0d63243cf33f52d4fba0681718dc8df2be77493e2e7d",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part002?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-sis.zip.part003",
+          "size": 268435456,
+          "sha256": "324be5d6abf4e00f5edcd9ab6e96d2da7ff35857d4acdfec991604f2a8c0d4b4",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part003?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-sis.zip.part004",
+          "size": 268435456,
+          "sha256": "14b1913cc96fd31a52f5abf7423d8ad51ba378970d5fe8e2a69df7407c0302ca",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part004?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-sis.zip.part005",
+          "size": 268435456,
+          "sha256": "f32b5bddbf1569919335acb6e42c3a956543d23362c81ab9b4351c76303c3fd5",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part005?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-sis.zip.part006",
+          "size": 268435456,
+          "sha256": "64f9b39d7272ff46c318df44231bd4971d5b11f6e260527bc64e4e6e1be8afef",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part006?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-sis.zip.part007",
+          "size": 268435456,
+          "sha256": "eda14ef48b55409a52aa968a291dbae030cdfd101893aa850c3ab778c7de0e9b",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part007?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-sis.zip.part008",
+          "size": 268435456,
+          "sha256": "acd020e7bf56d6650dba80ac4c96179f21630012275a6920392770bd33898c06",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part008?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-sis.zip.part009",
+          "size": 268435456,
+          "sha256": "e25f8d74f122b305348927904613e5109016cabebfec7162bcbd256181dacb85",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part009?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-sis.zip.part010",
+          "size": 268435456,
+          "sha256": "c20f9556a4ba81ed6b52043b2394f28ff075aef9eaf0f1379c7afe5bac6a789f",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part010?download=1"
+        },
+        {
+          "name": "prism-v1.0.0-data-sis.zip.part011",
+          "size": 17622456,
+          "sha256": "b223f09eb18c1b4e263834146e7ec5c5404fa2f6921c664329f16a5574ac2725",
+          "url": "https://zenodo.org/records/22969883/files/prism-v1.0.0-data-sis.zip.part011?download=1"
+        }
+      ]
+    }
+  ],
+  "transport_note": "Data ZIPs are transferred in ordered 256 MiB parts. Reassemble and verify the original ZIP SHA-256 before extraction; file contents and relative paths are unchanged."
 }
