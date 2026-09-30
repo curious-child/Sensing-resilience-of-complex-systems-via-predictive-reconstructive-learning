@@ -53,6 +53,26 @@ Extract the separate figure-cache ZIP in the same way. The Release includes `SHA
 ln -s Neuronal_supervised dataset/neuronal_supervised
 ```
 
+### Pretraining datasets
+
+The complete neuronal and SIS pretraining inputs are being added to the same Zenodo record. Download every `prism-v1.0.0-pretraining-*.pkl.part*` file and `PRETRAINING_SHA256SUMS.txt` after the record becomes public. Keep each numbered filename unchanged. Each sequence contains raw pickle bytes, not a ZIP archive.
+
+In a clean project checkout containing the downloaded parts, reconstruct the four files and check their SHA-256 values:
+
+```bash
+mkdir -p dataset/Neuronal dataset/SIS
+(
+  set -C  # Refuse to overwrite existing files.
+  cat prism-v1.0.0-pretraining-neuronal-As.pkl.part* > dataset/Neuronal/As.pkl || exit 1
+  cat prism-v1.0.0-pretraining-neuronal-numes.pkl.part* > dataset/Neuronal/numes.pkl || exit 1
+  cat prism-v1.0.0-pretraining-sis-As.pkl.part* > dataset/SIS/As.pkl || exit 1
+  cat prism-v1.0.0-pretraining-sis-numes.pkl.part* > dataset/SIS/numes.pkl || exit 1
+)
+sha256sum -c PRETRAINING_SHA256SUMS.txt
+```
+
+Only use parts listed in `manifest.json`; the manifest also records each part's size and checksum. The restored files occupy approximately 60.26 GB in total. Retain the parts until all four checksum checks pass. These pretraining inputs supplement the supervised and test data ZIPs above.
+
 ## Simulation and training
 
 The data-generation configurations select training, perturbation and classification experiments. Generate new datasets in a separate directory with:
